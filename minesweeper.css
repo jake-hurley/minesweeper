@@ -58,3 +58,24 @@ div.hidden:hover {
 div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") deepskyblue;
 }
+
+#reset-button {
+  background-color:#eee;
+  border: 1px #ccc dotted;
+  opacity:1 ;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+}
+#reset-button:hover {
+  background-color:#ccc;
+}
+
+button:focus {outline:0;}
+
+.button-hide {
+  display: none;
+}
